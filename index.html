@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Chatbot Personalizado</title>
+</head>
+<body>
+    <header>
+        <h1>Chatbot Personalizado</h1>
+    </header>
+    <main>
+        <section id="chat-section">
+            <div class="container">
+                <div class="chat-box" id="chat"></div>
+                <div class="input-box">
+                    <input type="text" id="userInput" placeholder="Digite uma pergunta" disabled>
+                    <button id="sendMessage" disabled>Enviar</button>
+                </div>
+            </div>
+        </section>
+        <section id="settings-section">
+            <div class="container">
+                <div class="chat-name-container">
+                    <input type="text" id="chatNameInput" placeholder="Digite o seu nome">
+                    <button id="setChatName">Definir</button>
+                </div>
+                <div class="qa-form">
+                    <h2>Adicionar Pergunta e Resposta</h2>
+                    <input type="text" id="newQuestion" placeholder="Nova pergunta">
+                    <input type="text" id="newAnswer" placeholder="Nova resposta">
+                    <button id="addQAButton">Adicionar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
